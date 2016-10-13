@@ -1,0 +1,31 @@
+{
+  "name": "chefsplate/laravel-doctrine-odm-example",
+  "description": "Example project demonstrating usage of the Laravel-Doctrine-ODM wrapper",
+  "keywords": ["laravel", "doctrine", "mongo", "mongodb", "document", "mapper", "odm", "example", "demo"],
+  "homepage": "https://github.com/chefsplate/laravel-doctrine-odm-example",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "David Chang",
+      "email": "davidchchang@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "laravel/framework": "5.1.*",
+    "chefsplate/laravel-doctrine-odm": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
