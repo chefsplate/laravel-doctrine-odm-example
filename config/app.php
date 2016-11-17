@@ -146,6 +146,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         ChefsPlate\ODM\Providers\DocumentMapperServiceProvider::class,
+        ChefsPlate\ODM\Providers\IdeOdmHelperServiceProvider::class,
     ],
 
     /*
