@@ -1,4 +1,4 @@
-# laravel-doctrine-odm-example
+# laravel-doctrine-odm-example [WIP]
 
 Example [Laravel](https://github.com/laravel/laravel) project demonstrating usage of the 
 [Laravel-Doctrine-ODM wrapper](https://github.com/chefsplate/laravel-doctrine-odm) 
@@ -9,6 +9,7 @@ Entities can be found under app/Entities, and API endpoints can be found in app/
 # Requirements
 
 - PHP mongo extension (ext-mongo) must be installed: http://php.net/manual/en/mongo.installation.php
+    - On a Mac, the easiest way to install this extension is through `brew`: `brew install php56` followed by `brew install php56-mongo`
 
 ## Install
 
